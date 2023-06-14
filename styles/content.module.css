@@ -1,0 +1,76 @@
+.outline
+{
+    background-color: white;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.content{
+    background-color: #404040;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #888888;
+    height: 500px;
+    overflow: scroll;
+}
+
+.home_content{
+    margin-top: 15%;
+}
+
+.portfolio_title {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.experience_content {
+    text-align: left;
+}
+
+.line {
+    margin-left: 6%;
+}
+
+.line_education {
+    margin-right: 6%;
+}
+
+.experience {
+    margin-top: '10%';
+    text-align: left;
+}
+
+.fix_content {
+    width: '350px';
+    height: '1000px';
+}
+
+.project_title {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.project_card {
+    margin-right: 6%;
+    background-color: none;
+}
+
+.contact {
+    color: white;
+    text-decoration: none;
+}
+
+.fade_in {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
