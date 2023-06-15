@@ -12,8 +12,8 @@ export default function EducationContent (props) {
             <div className="col-sm-12">
                 <div className="row">
                     <div className={`col-sm-9 ${style.experience_content}`}>
-                        <h5 style={{marginLeft: '5%'}}>{props.university} | {props.date}</h5>
-                        <p style={{marginLeft: '5%'}}>{props.course}</p>
+                        <h5 style={{marginLeft: '5%'}}>{props.course} | {props.date}</h5>
+                        <p style={{marginLeft: '5%'}}>{props.university}</p>
                     </div>
                     <div className="col-sm-3">
                         <p style={{fontSize:'15px'}}> ( GPA: {props.GPA})</p>
