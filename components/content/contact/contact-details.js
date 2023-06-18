@@ -7,7 +7,7 @@ export default function ContactDetails (props) {
         <div className='col-sm-12'>
                     <div className='row'>
                         <div className='col-sm-2' style={{textAlign:'right'}}>
-                            <Image src={props.image} width={50} height={50}/>
+                            <Link href={props.link}><Image src={props.image} width={50} height={50}/></Link>
                         </div>
                         <div className='col-sm-10'>
                             <h6 style={{marginTop: '2%'}}><Link href={props.link} className={style.contact}> {props.name} </Link></h6>

@@ -10,7 +10,7 @@ export default function AllContents ()
                 <div className={`col-sm-12`}>
                     <div className={`${style.content}`}>
                         <div className='row'>
-                            <div className='col-sm-4'>
+                            <div className= {`col-sm-4`}>
                                 <ProfilePic />
                             </div>
                             <div className='col-sm-8'>
