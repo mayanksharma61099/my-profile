@@ -5,7 +5,7 @@ import ProfilePic from '@/components/image';
 export default function AboutContent () {
     return (
         <div className='container'>
-            <div className={style.outline}>
+            <div className={`${style.mobile_margin} ${style.outline}`}>
                 <div className='col-sm-12'>
                     <div className={style.content}>
                         <div className='row'>
@@ -13,8 +13,10 @@ export default function AboutContent () {
                                 <ProfilePic />
                             </div>
                             <div className='col-sm-8'>
-                                <div className='tab-content'>
-                                    <About />
+                                <div className='container'>
+                                    <div className='tab-content'>
+                                        <About />
+                                    </div>
                                 </div>
                             </div>
                         </div>

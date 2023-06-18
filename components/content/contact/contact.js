@@ -5,7 +5,7 @@ import ContactContent from './contact-content';
 export default function ContactPage () {
     return (
         <div className='container'>
-            <div className={style.outline}>
+            <div className={`${style.outline} ${style.mobile_margin}`}>
                 <div className='col-sm-12'>
                     <div className={style.content}>
                         <div className='row'>
@@ -13,8 +13,10 @@ export default function ContactPage () {
                                 <ProfilePic />
                             </div>
                             <div className='col-sm-8'>
-                                <div className='tab-content'>
-                                    <ContactContent />
+                                <div className='container'>
+                                    <div className='tab-content'>
+                                        <ContactContent />
+                                    </div>
                                 </div>
                             </div>
                         </div>

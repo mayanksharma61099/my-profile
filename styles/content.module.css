@@ -16,6 +16,8 @@
 
 .home_content{
     margin-top: 15%;
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 .portfolio_title {
@@ -75,3 +77,23 @@
         opacity: 1;
      }
 }
+
+.mobile_margin { margin-bottom: 100px; }
+
+@media only screen and (min-width: 600px) {
+    .desktop_tag {
+      display: block;
+    }
+    .mobile_tag {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 599px) {
+    .desktop_tag {
+      display: none;
+    }
+    .mobile_tag {
+      display: block;
+    }
+  }
