@@ -12,11 +12,12 @@ export default function EducationContent (props) {
             <div className="col-sm-12">
                 <div className="row">
                     <div className={`col-sm-9 ${style.experience_content}`}>
-                        <h5 style={{marginLeft: '5%'}}>{props.course} | {props.date}</h5>
+                        <h5 style={{marginLeft: '5%'}}>{props.course}</h5>
                         <p style={{marginLeft: '5%'}}>{props.university}</p>
                     </div>
                     <div className="col-sm-3">
-                        <p style={{fontSize:'15px'}}> ( GPA: {props.GPA})</p>
+                        <p style={{fontSize:'15px'}}>GPA: {props.GPA}</p>
+                        <p style={{fontSize:'15px'}}>{props.date}</p>
                     </div>
                     <ul>
                             <li style={{marginLeft: '8%'}}>{listLearnings}</li>

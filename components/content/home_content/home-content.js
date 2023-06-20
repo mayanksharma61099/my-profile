@@ -7,7 +7,7 @@ export default function HomeContent () {
             <div id='Home' className='tab-pane active'>
                 <h2>Hi, Myself Mayank Sharma</h2>
                 <br />
-                <h2>I am </h2><br />
+                <h2>A </h2><br />
                 <h1>
                     <Typewriter
                     options={{

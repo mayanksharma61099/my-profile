@@ -9,8 +9,8 @@ export default function AllContents ()
             <div className={`${style.mobile_margin} ${style.outline}`}>
                 <div className={`col-sm-12`}>
                     <div className={`${style.content}`}>
-                        <div className='row'>
-                            <div className= {`col-sm-4`}>
+                        <div className='row m-0'>
+                            <div className= {`col-sm-4 ${style.profile_pic}`}>
                                 <ProfilePic />
                             </div>
                             <div className='col-sm-8'>

@@ -1,6 +1,6 @@
 import style from "@/styles/content.module.css";
 import ProjectContent from "./project-content";
-import Image from "next/image";
+import ProfilePic from "@/components/image";
 
 export default function ProjectPage () {
     return (
@@ -8,9 +8,9 @@ export default function ProjectPage () {
             <div className={`${style.mobile_margin} ${style.outline}`}>
                 <div className='col-sm-12'>
                     <div className={style.content}>
-                        <div className='row'>
-                            <div className='col-sm-4'>
-                                <Image src='/img/Profile_Image.jpg' alt='Profile Picture' width={350} height={500} />
+                        <div className='row m-0'>
+                            <div className= {`col-sm-4 ${style.profile_pic}`}> 
+                                <ProfilePic />
                             </div>
                             <div className='col-sm-8'>
                                 <div className='container'>

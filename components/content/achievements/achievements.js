@@ -8,8 +8,8 @@ export default function AchievementsPage () {
             <div className={`${style.outline} ${style.mobile_margin}`}>
                 <div className='col-sm-12'>
                     <div className={style.content}>
-                        <div className='row'>
-                            <div className='col-sm-4'>
+                        <div className='row m-0'>
+                            <div className= {`col-sm-4 ${style.profile_pic}`}> 
                                 <ProfilePic/>
                             </div>
                             <div className='col-sm-8'>
