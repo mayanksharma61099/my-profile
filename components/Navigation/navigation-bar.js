@@ -26,6 +26,7 @@ export default function NavigationBar () {
                     <NavigationItems link = 'About'/>
                     <NavigationItems link = 'Portfolio' />
                     <NavigationItems link = 'Projects' />
+                    <NavigationItems link = 'Blogs' />
                     <NavigationItems link = 'Achievements' />
                     <NavigationItems link = 'Contact' />
                     <li><button onClick={onButtonClick} className='btn btn-dark'>Download CV</button></li>

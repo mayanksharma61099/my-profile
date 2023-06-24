@@ -1,13 +1,13 @@
 import NavigationBar from "@/components/Navigation/navigation-bar";
-import AllContents from "@/components/content/home_content/content";
 import Footer from "@/components/footer";
+import BlogsPage from "@/components/content/blogs/Blogs";
 
 function IndexPage() {
   return (
     <>
       <NavigationBar />
       <br /><br /><br />
-      <AllContents />
+      <BlogsPage />
       <Footer />
     </>
   );
