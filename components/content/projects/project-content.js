@@ -3,6 +3,11 @@ import Cards from './cards';
 
 export default function ProjectContent () {
 
+    const Portfolio = [
+        '•	A website containing all my with highly responsive UI. User can have all the details about my skills, experience and Education, my personal projects, blogs, achievements, and how to contact me.',
+        'Technology Used: React js, Next js'
+    ];
+
     const Ayurvedajya = [
         'A highly enriched medical website is connected to a backed application architecture which creates a special combination to process the workflow of a clinic efficiently and provides assistance in Backend Data Processing.',
         'Technology Used: HTML, CSS, JavaScript, PHP, MySQL, Bootstrap'
@@ -33,6 +38,8 @@ export default function ProjectContent () {
             <div id='Home' className={`tab-pane active ${style.fade_in}`}>
                 <h1 className={style.project_title}>Projects</h1>
                 <br />
+                <Cards title='PORTFOLIO WEBSITE' details = {Ayurvedajya} link='https://main.dxcfbwiclh4mm.amplifyapp.com/'
+                tech='web' /><br/>
                 <Cards title='AYURVEDA CLINIC WEBSITE + WEB APPLICATION' details = {Ayurvedajya} link='https://ayurvedajya.com'
                 tech='web' /><br/>
                 <Cards title='CUSTOMER RELATION MANAGEMENT' details = {CRM} /><br />
