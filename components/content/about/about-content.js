@@ -6,11 +6,11 @@ export default function About () {
             <div id='Home' className='tab-pane active'>
                 <h1>About Me</h1>
                 <br />
-                <p>An enthusiastic, passionate, fast learner and motivated individual with an Industry Experience and 
-                    hands-on experience on different Object-Oriented Programming Languages, Algorithms, and development tools, 
-                    seeking opportunities to grow myself in an industry leading company, where I can use my problem-solving 
-                    skills to the advantage of the company and provide Technical Solutions while having the scope of growing 
-                    my own skills.</p>
+                <p>An enthusiastic, passionate, fast learner and motivated individual with an 3+ years of Industry Experience, 
+                    2+ years of team leading and hands-on experience on testing and developing full stack web applications, 
+                    seeking Full Stack Software Engineer position in an industry leading company, where I can use my problem-solving 
+                    skills to the advantage of the company and provide Technical Solutions while having the scope of growing my own 
+                    skills.</p>
             </div>
         </div>
     );

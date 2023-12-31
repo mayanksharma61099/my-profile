@@ -8,7 +8,11 @@ export default function Experience () {
         'Understanding Business requirement and creating certain matrices and providing automation solutions',
         'Creating variety of Dashboards using Tableau Desktop',
         'Web Designing, Development and UI Updates',
-        'Creating Windows Applications using WPF and C#'
+        'Full Stack Web Application Development using .Net and C#',
+        'Database Management and Development',
+        'Microservices handling and development in .Net',
+        'Creating Windows Applications using WPF and C#',
+        'Part of Tech Strategy Team'
     ];
 
     const programmerTCS = [
