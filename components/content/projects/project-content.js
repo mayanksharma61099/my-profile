@@ -33,11 +33,25 @@ export default function ProjectContent () {
         'Technology Used: Python, Selenium, Machine Learning, NLP'
     ];
 
+    const Bulk_Email_Sender = [
+        'An automated solution which can generate and send bulk emails, using dynamic process for different users.',
+        'Use Cases may include, bulk email broadcast for people for latest promotional advertisement, or email regarding any important update or information wider audience',
+        'Technology Used: Python'
+    ];
+
+    const QR_Code = [
+        'QR Code Generator is a React Project in which people can easily create a dynamic QR code.',
+        'Plain text can convert plain text, mobile number, website, UPI Id, etc. to QR codes ',
+        'Technology Used: React'
+    ];
+
     return (
         <div>
             <div id='Home' className={`tab-pane active ${style.fade_in}`}>
                 <h1 className={style.project_title}>Projects</h1>
                 <br />
+                <Cards title='BULK EMAIL SENDER' details = {Bulk_Email_Sender} link='https://github.com/mayanksharma61099/BulkEmailSender' tech='web'/><br />
+                <Cards title='QR CODE GENERATOR' details = {QR_Code} link='https://github.com/mayanksharma61099/QR-Code-Generator' tech='web'/><br />
                 <Cards title='PORTFOLIO WEBSITE' details = {Ayurvedajya} link='https://main.dxcfbwiclh4mm.amplifyapp.com/'
                 tech='web' /><br/>
                 <Cards title='AYURVEDA CLINIC WEBSITE + WEB APPLICATION' details = {Ayurvedajya} link='https://ayurvedajya.com'

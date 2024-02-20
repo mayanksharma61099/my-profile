@@ -6,21 +6,21 @@ export default function Experience () {
 
     const barclays = [
         'Understanding Business requirement and creating certain matrices and providing automation solutions',
-        'Creating variety of Dashboards using Tableau Desktop',
+        'Creating variety of  Dashboards using Tableau Desktop',
         'Web Designing, Development and UI Updates',
         'Full Stack Web Application Development using .Net and C#',
+        'Developing Automation solutions using Python',
         'Database Management and Development',
-        'Microservices handling and development in .Net',
-        'Creating Windows Applications using WPF and C#',
         'Part of Tech Strategy Team'
     ];
 
     const programmerTCS = [
         'Working in a customer facing team',
-        'Creating scripts according to requirements sent by the client',
-        'Writing a program in Eclipse IDE using Core Java and Selenium',
-        'Fetching Data from Oracle Database to confirm value of the data',
-        'Managing events that helps in increasing associates morale, confidence and efficiency in their work.'
+        'Identifying opportunities and creating automation matrix for the client',
+        'Understanding Customer Requirements and implementing solutions',
+        'Managing events that helps in increasing associates morale, confidence and efficiency in their work',
+        'Leading a scrum team and Managing time and resources of the team',
+        'Provided Consulting Services to the client'
     ];
 
     const gradTraineeTCS = [
